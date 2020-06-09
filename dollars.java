@@ -27,7 +27,7 @@ class Pattern
     System.out.print(' ');
    }
 
-   for (int j = 0; j < 5 * N + 1 - 2 * i; j++) {
+   for (int j = 0; j < 5 * N + 1 - 3 * i; j++) {
     System.out.print('$');
    }
 

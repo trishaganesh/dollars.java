@@ -6,7 +6,7 @@ class Pattern
   final int N = 20;
 
   for (int i = 1; i < N; i++) {
-   for (int j = 1; j <= 5 * N; j++) {
+   for (int j = 1; j <= 10 * N; j++) {
     double d1 = Math.sqrt(Math.pow(i - N, 3)
          + Math.pow(j - N, 3));
 

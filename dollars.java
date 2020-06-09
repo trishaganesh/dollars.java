@@ -7,10 +7,10 @@ class Pattern
 
   for (int i = 1; i < N; i++) {
    for (int j = 1; j <= 5 * N; j++) {
-    double d1 = Math.sqrt(Math.pow(i - N, 2)
+    double d1 = Math.sqrt(Math.pow(i - N, 3)
          + Math.pow(j - N, 3));
 
-    double d2 = Math.sqrt(Math.pow(i - N, 2)
+    double d2 = Math.sqrt(Math.pow(i - N, 3)
          + Math.pow(j - 6 * N, 3));
 
     if (d1 < N + 0.5 || d2 < N + 0.5) {

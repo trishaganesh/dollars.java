@@ -2,7 +2,7 @@ class Pattern
 {
  // Java program to print a money pattern
  public static void main(String[] args) {
-  // set output size
+  // set size for output 
   final int N = 40;
 
   for (int i = 1; i < N; i++) {
